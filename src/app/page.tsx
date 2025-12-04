@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
@@ -10,7 +10,7 @@ import TestimonialCardFourteen from '@/components/sections/testimonial/Testimoni
 import FaqSplitMedia from '@/components/sections/faq/FaqSplitMedia';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterSocial from '@/components/sections/footer/FooterSocial';
-import { CheckCircle, Cloud, Code, Github, Instagram, LinkedIn, Linkedin, Lock, Mail, Smartphone, TrendingUp, Twitter, Zap } from "lucide-react";
+import { CheckCircle, Cloud, Code, Github, Linkedin, Lock, Mail, Shield, Smartphone, TrendingUp, Twitter, Zap } from "lucide-react";
 
 export default function LandingPage() {
   return (
