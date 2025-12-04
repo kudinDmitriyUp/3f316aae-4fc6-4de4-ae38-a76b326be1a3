@@ -24,12 +24,10 @@ export default function LandingPage() {
       cardStyle="glass-elevated"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="radial-glow"
-      showBlurBottom={true}
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
           logoSrc="https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_32SgGlSmvaVv2SYOkECykbr8Q49/uploaded-1764869949036-j8n6i6dv.jpg"
-          logoAlt="MasturCoders"
           brandName="MasturCoders"
           navItems={[
             { name: "About", id: "about" },
