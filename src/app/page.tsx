@@ -24,6 +24,8 @@ export default function LandingPage() {
       cardStyle="glass-elevated"
       primaryButtonStyle="shadow"
       secondaryButtonStyle="radial-glow"
+      showBlurBottom={false}
+      headingFontWeight="medium"
     >
       <div id="nav" data-section="nav">
         <NavbarLayoutFloatingOverlay
